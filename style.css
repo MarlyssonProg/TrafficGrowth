@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+    list-style: none; /*Retira o ponto de tópico (lista)*/
+    text-decoration: none; /*Retira o sublinhado dos nomes do Menu*/
+    font-family: Montserrat;
+}
+
+.back-trafficGrowth {
+    background: rgba(3,0,12,0.7) url("backagencia.png");
+    background-blend-mode: darken;
+    position: relative;
+    background-position: center;
+    background-size: cover; /** Adequa a imagem a largura da página**/
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    
+
+}
+
+.logo img {
+    /*scale: 0.5;*/
+    width: 60%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+nav {
+    display: flex;
+    gap: 35px;
+    font-size: 20px;   
+}
+
+nav a {
+    color: #fff;
+    font-weight: 500px;
+}
+
+.botao_entrar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.botao_entrar button {
+    background-color: #ffd901;
+    padding: 10px;
+    color: #000;
+    font-weight: bolder ;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#registro {
+    color: #000;
+}
+
+.botao_entrar a {
+    color: #fff;
+    font-size: 18px;
+}
+
+
